@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="motdepasse.css">
+</head>
+<body>
+    <div id="blog">
+        <header>
+            <div id="titre_principal">
+                <div id="logo">
+                    <div class="part1">systhag-online</div>
+                    <div class="part2">Portail academic de l'unniversite de Douala</div>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="cn1"><a href="">connexion</a>
+                            <form action="">
+                                <table cellspacing="3" >
+                                    <tr>
+                                        <td><label for="id"><span>identifiant</span>:</label></td>
+                                        <td><input type="text" id="id"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="mdp"><span>mot</span><span>de</span><span>passe</span>: </label></td>
+                                        <td><input type="password" id="mdp"> 
+                                        <button>OK</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><input type="checkbox" checked="checked"> connecter en tant qu'étudiant</td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </li>
+                        <li class="cn2"><a href="motdepasseoublier.html">Mot de passe oublié</a></li>
+                    </ul>
+                </nav>
+            </div>
+           <nav class="second">
+                <ul>
+                    <li><a href="page_accueil_unniv.html">acceuil</a></li>
+                    <li><a href="concour.html">concours</a></li>
+                    <li><a href="pre_inscription.html">preinscription</a></li>
+                    <li><a href="inscription.html">insciptions</a></li>
+                    <li><a href="note.html">notes</a></li>
+                    <li><a href="enrollement.html">enrollements</a></li>
+                </ul>
+           </nav>
+           <div class="third">36 visiteur(s) en ligne</div>
+        </header>
+        <section>
+            <div class="accueil">Mot de passe oublié</div>
+            <article>
+                <h3>Vous êtes étudiant et désirez retrouver votre mot de passe</h3>
+                <form action="" method="post">
+                        <label for="identifiant">entrez votre identifiant : </label> 
+                        <input type="text" id="identifiant"> <SPAN class="red">*</SPAN> <p>
+                            <div id="move">
+                                <label for="name">entrez votre nom complet : </label>
+                                <input type="text" id="name"> <span class="red">*</span><span class="red">( Nom et prenom )</span><p>
+                            </div>
+                        Date de naissance : <input type="date" id="date">
+                        <span id="reduit">jour/mois/annee</span><span class="red">*</span><br>
+                        <input type="submit" value="Envoyer" name="" id="envoyer">
+                </form>
+            </article>
+            <footer>
+                Systhag Team ©
+            </footer>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
